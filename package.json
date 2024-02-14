@@ -1,0 +1,59 @@
+{
+  "name": "cz-salt",
+  "version": "1.0.0",
+  "description": "cz conventional for frontend developer of SALT Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayabanilolly/cz-frontend-salt.git"
+  },
+  "keywords": [
+    "committizen",
+    "cz-conventional",
+    "salt-indonesia"
+  ],
+  "author": "rayabaniloly",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^2.4.1",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "inquirer": "^8.2.4",
+    "lodash.map": "^4.5.1",
+    "longest": "^2.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "cosmiconfig": "^5.2.1",
+    "mocha": "^10.0.0",
+    "mock-require": "^3.0.3",
+    "prettier": "^1.15.3",
+    "semantic-release": "^19.0.3",
+    "semver": "^6.2.0"
+  },
+  "optionalDependencies": {
+    "@commitlint/load": ">6.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js",
+      "jiraMode": false,
+      "skipScope": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/rayabanilolly/cz-frontend-salt/issues"
+  },
+  "homepage": "https://github.com/rayabanilolly/cz-frontend-salt#readme"
+}
